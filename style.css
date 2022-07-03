@@ -123,7 +123,9 @@ ul {
     color: black;
 }
 
-
+a:hover {
+    color: blue;
+}
 
 .bottom-img {
     border: 1px solid black;
