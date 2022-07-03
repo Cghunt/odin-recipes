@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -28,13 +29,30 @@ body {
     border-radius: 10px;
     margin: 10px auto;
     padding: 5px 1em;
-    font-size: 2vw;
+    font-size: 1.5vw;
+}
+h2 {
+    font-size: 1.2vw;
+    margin-bottom: 5px;
+
+}
+h4 {
+margin-bottom: 5px;
+margin-top: 10px;
 }
 
+p, li {
+    font-size: 1.3vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    margin: 10px;
+}
 .recipe-img {
     width: 60%;
     max-height: auto;
-    border-radius: 50%;
+    border-radius: 50% 0 50% 0; 
     overflow: hidden;
     border: 1px solid black;
     margin: 10px auto;
@@ -45,9 +63,9 @@ body {
     border: 1px solid black;
     width: 60%;
     border-radius: 10px;
-    margin: 10px auto;
-    padding: 5px 1em;
-    
+    margin: 20px auto;
+    padding: 10px 1em;
+     
   
 }
 .hero-img {
@@ -80,6 +98,26 @@ body {
     padding: .8em;
     color: black;
 }
+
+.top-nav {
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 1em;
+    font-size: 1.2vh;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.top-nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .8em;
+    color: black;
+}
+
+
 
 .bottom-img {
     border: 1px solid black;
