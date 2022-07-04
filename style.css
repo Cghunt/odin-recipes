@@ -3,7 +3,8 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lobster Two', cursive;
+    text-transform: capitalize;
 }
 
 body {
