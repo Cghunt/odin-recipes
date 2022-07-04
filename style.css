@@ -3,9 +3,19 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
     font-family: 'Lobster Two', cursive;
     text-transform: capitalize;
 }
+
+
 
 body {
     text-align: center;
@@ -31,6 +41,8 @@ body {
     margin: 10px auto;
     padding: 5px 1em;
     font-size: 1.5vw;
+    font-family: 'Lobster Two', cursive;
+    text-transform: capitalize;
 }
 
 h2 {
@@ -46,8 +58,8 @@ h4 {
 
 p,
 li {
-    font-size: 1.3vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9vh;
+
 }
 
 ul {
@@ -71,6 +83,7 @@ ul {
     border-radius: 10px;
     margin: 20px auto;
     padding: 10px 1em;
+    font-family: 'Patrick Hand', cursive;
 
 
 }
@@ -94,8 +107,8 @@ ul {
     border-radius: 10px;
     margin: 60px auto 20px;
     padding: 10px 1em;
-    font-size: 1.2vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vh;
+    font-family: 'Patrick Hand', cursive;
 
 }
 
@@ -112,8 +125,8 @@ ul {
     border-radius: 10px;
     margin: auto;
     padding: 10px 1em;
-    font-size: 1.2vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vh;
+    font-family: 'Patrick Hand', cursive;
 
 }
 
